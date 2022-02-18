@@ -1,0 +1,62 @@
+body{
+    /* margin: 0; */
+    background-color: aqua;
+}
+
+/* Style for first programme: */
+/* 
+div{
+    background-color: blue;
+    color: white;
+    margin: 100px auto;
+    width: 500px;
+    padding: 30px;
+    border: 15px solid orange;
+    text-align: justify;
+    font-size: 20px;
+
+} */
+
+/* Style for second programme:  */
+
+div{
+    width: 320px;
+    /* padding: 10px; */
+    padding: 35px;
+    border: 5px solid blue;
+    margin: 0;
+    background-color: orange;
+    color: blanchedalmond;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.border-box{
+    width: 400px;
+    padding: 60px;
+    border: 5px solid blue;
+    margin: 0;
+    background-color: orange;
+    color: blanchedalmond;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+    box-sizing: border-box;
+    text-indent: 20px;
+}
+
+.outline{
+    width: 400px;
+    padding: 60px;
+    border: 5px solid blue;
+    margin: 0;
+    background-color: orange;
+    color: blanchedalmond;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    margin: auto;
+    box-sizing: border-box;
+    outline: 13px solid royalblue;
+}

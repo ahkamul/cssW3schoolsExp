@@ -1,0 +1,14 @@
+.ex1{
+    background-color: aqua;
+    width: 500px;
+}
+
+.ex2{
+    background-color: lightblue;
+    width: 500px;
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: justify;
+    color: blueviolet;
+    font-size: 20px;
+}
