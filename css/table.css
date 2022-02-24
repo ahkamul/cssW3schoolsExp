@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color: aqua;
+    
+}
+
+table{
+    background-color: #83ce01;
+    margin: auto;
+    width: 800px;
+}
+
+table, td, th{
+    border-collapse: collapse;
+    border: 2px solid #fffa00;
+}
+
+caption{
+    width: 800px;
+    background-color: blue;
+    color: blanchedalmond;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    /* caption-side: bottom; */
+}
+
+caption:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+
+th, td{
+    padding: 10px;
+    font-size: 20px;
+    color: #f62394;
+}
+
+td{
+    text-align: center;
+}
+
+tr:hover{
+    background-color: blueviolet;
+}
+
+div{
+    overflow-x: auto;
+}
