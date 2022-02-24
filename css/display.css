@@ -1,0 +1,13 @@
+h1.hidden{
+    display: none;
+    background-color: aqua;
+}
+
+p{
+    display: inline;
+}
+
+span{
+    display: block;
+    background-color: burlywood;
+}
