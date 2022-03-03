@@ -1,0 +1,27 @@
+/* Style for Descendant Selector: */
+
+/* div p{
+    background-color: aqua;
+} */
+
+/* Style for Child Selector: */
+
+/* div > p{
+    background-color: aqua;
+} */
+
+/* Style for Adjacent Sibling Selector:  */
+
+/* div + p{
+    background-color: aqua;
+} */
+
+/* Style for General Sibling Selector:  */
+
+div ~ p{
+    background-color: aqua;
+}
+
+div p{
+    background-color: greenyellow;
+}
