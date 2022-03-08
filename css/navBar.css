@@ -1,0 +1,53 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #c1c1c1;
+}
+
+li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    /* text-align: center; */
+}
+
+li a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+
+ul.hori-navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+}
+
+
+ul.hori-navBar li {
+    float: left;
+    width: 24%;
+    border: 2px solid wheat;
+    overflow: hidden;
+}
+
+ul.hori-navBar li a {
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 25%;
+    
+  }
+
+  ul.hori-navBar li:first-child{
+      background-color: #04AA6D;
+  }
+
+  

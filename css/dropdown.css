@@ -1,0 +1,116 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #a9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    color: orangered;
+    text-align: center;
+}
+
+/* Style for Dropdown Menu: */
+
+.dropbtn{
+    background-color: #4cAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu:hover .dropdown-menu-content{
+    display: block;
+}
+
+.dropdown-menu:hover .dropbtn{
+    background-color: #4f3e8e;
+}
+
+.dropdown-menu-content a{
+    color: orangered;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.dropdown-menu-content a:hover{
+    background-color: #a9f9f9;
+    color: red;
+}
+
+/* Style for Aligned Dropdown Menu: */
+
+.aligned-dropdown-dropbtn{
+    background-color: #4cAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+.aligned-dropdown{
+    position: relative;
+    display: inline-block;
+}
+.aligned-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.aligned-dropdown-content a{
+    color: orangered;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+    background-color: black;
+    border: 1px solid white;
+}
+
+.aligned-dropdown-content a:hover{
+    background-color: #f9f9f9;
+}
+
+.aligned-dropdown:hover .aligned-dropdown-content{
+    display: block;
+}
+
+.aligned-dropdown:hover .aligned-dropdown-dropbtn{
+    background-color: #4f3e8e;
+}
+.aligned-dropdown-content a:hover{
+    background-color: #a9f9f9;
+    color: red;
+}
